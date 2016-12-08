@@ -47,7 +47,7 @@ module.exports = {
     'no-use-before-define' : 1,
     'no-useless-call': 1,
     'object-curly-spacing': [1, 'always'],
-    quotes: [2, single, 'avoid-escape'],
+    quotes: [2, 'single', 'avoid-escape'],
     semi: 1,
     'space-before-blocks': 2,
     'spaced-comment': 1
