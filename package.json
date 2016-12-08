@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-voxproduct",
+  "version": "1.0.0",
+  "description": "Shared eslint config for Vox Product",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voxmedia/eslint-config-voxproduct"
+  },
+  "main": "index.js",
+  "scripts": {
+    "eslint-find-current-rules": "eslint-find-rules -c",
+    "eslint-find-all-rules": "eslint-find-rules -a",
+    "eslint-find-plugin-rules": "eslint-find-rules -p",
+    "eslint-find-unused-rules": "eslint-find-rules -u -n"
+  },
+  "author": "Vox Product",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "peerDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-plugin-html": "^1.7.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-promise": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-find-rules": "^1.14.3",
+    "eslint-plugin-html": "^1.7.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-promise": "^3.4.0"
+  }
+}
