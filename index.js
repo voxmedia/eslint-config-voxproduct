@@ -32,7 +32,6 @@ module.exports = {
     'no-eval' : 2,
     'no-lone-blocks' : 1,
     'no-lonely-if': 1,
-    'no-loop-func': 1,
     'no-multi-str' : 1,
     'no-multiple-empty-lines': 1,
     'no-native-reassign' : 2,
@@ -40,14 +39,19 @@ module.exports = {
     'no-new-func' : 1,
     'no-new-object': 1,
     'no-new-wrappers': 1,
-    'no-plusplus': 1,
     'no-spaced-func': 1,
     'no-trailing-spaces' : 2,
-    'no-unneeded-ternary': 1,
-    'no-use-before-define' : 1,
+    'no-use-before-define' : [
+      'error',
+      { 'functions': false }
+    ],
     'no-useless-call': 1,
     'object-curly-spacing': [1, 'always'],
-    quotes: [2, 'single', 'avoid-escape'],
+    quotes: [
+      'error',
+      'single',
+      { 'allowTemplateLiterals': true }
+    ],
     semi: 1,
     'space-before-blocks': 2,
     'spaced-comment': 1
