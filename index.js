@@ -26,7 +26,7 @@ module.exports = {
     'dot-notation' : 1,
     'eol-last': 2,
     'guard-for-in': 0,
-    indent: [2, 2],
+    indent: [1, 2, { SwitchCase: 1 }],
     'no-bitwise' : 2,
     'no-console' : 0,
     'no-eval' : 2,
