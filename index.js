@@ -12,7 +12,8 @@ module.exports = {
   plugins: [
     'import',
     'html',
-    'promise'
+    'promise',
+    'no-foreach'
   ],
   rules: {
     'array-bracket-spacing' : 2,
