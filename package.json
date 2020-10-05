@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-voxproduct",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "Shared eslint config for Vox Product",
   "repository": {
     "type": "git",
@@ -17,16 +17,16 @@
   "license": "UNLICENSED",
   "peerDependencies": {
     "eslint": ">= 4.18.1",
-    "eslint-plugin-html": "^4.0.1",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-promise": "^3.6.0"
+    "eslint-plugin-html": ">= 4.0.1",
+    "eslint-plugin-import": ">= 2.9.0",
+    "eslint-plugin-promise": ">= 3.6.0"
   },
   "devDependencies": {
-    "eslint": ">= 4.18.1",
-    "eslint-find-rules": "^3.2.1",
-    "eslint-plugin-html": "^4.0.1",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-promise": "^3.6.0"
+    "eslint": "^7.10.0",
+    "eslint-find-rules": "^3.6.1",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-promise": "^4.2.1"
   },
   "dependencies": {
     "eslint-plugin-no-foreach": "^1.0.0"
